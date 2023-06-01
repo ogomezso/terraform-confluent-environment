@@ -11,12 +11,12 @@ variable "confluent_cloud_api_secret" {
 }
 
 variable "display_name" {
-  type = string
+  type        = string
   description = "Environment human readable name"
 }
 
 variable "cloud_provider" {
-  type          = string
+  type        = string
   description = "Cloud Provider for Schema Registry Cluster (AWS, AZURE, GCP)"
   validation {
     condition = (

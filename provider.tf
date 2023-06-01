@@ -6,7 +6,7 @@ terraform {
       version = ">=1.42.0"
     }
   } 
-  required_version = ">= 1.42.0"
+  required_version = ">= 1.3.0"
 } 
 
 provider "confluent" {
