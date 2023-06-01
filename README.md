@@ -41,5 +41,7 @@ No modules.
 
 ## Outputs
 
-No outputs.
+| Name | Description |
+|------|-------------|
+| <a name="output_env"></a> [env](#output\_env) | n/a |
 <!-- END_TF_DOCS -->
