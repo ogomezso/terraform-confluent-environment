@@ -12,7 +12,7 @@ resource "confluent_schema_registry_cluster" "sr" {
   package = data.confluent_schema_registry_region.sr_region.package
 
   environment {
-    id = confluent_environment.main.id
+    id = confluent_environment.env.id
   }
 
   region {
