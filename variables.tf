@@ -34,13 +34,13 @@ variable "region" {
 
 variable "sr_package" {
   type    = string
-  default = "BASIC"
+  default = "ESSENTIALS"
   validation {
     condition = (
-      contains(["BASIC", "ADVANCED"], var.sr_package)
+      contains(["ESSENTIALS", "ADVANCED"], var.sr_package)
     )
     error_message = <<EOT
-sr_package => BASIC, ADVANCED
+sr_package => ESSENTIALS, ADVANCED
     EOT
   }
 }
