@@ -34,3 +34,9 @@ sr_package => ESSENTIALS, ADVANCED
     EOT
   }
 }
+
+variable "env_manager_sa" {
+  type        = string
+  description = "Env Manager Service Account"
+  default = null
+}
