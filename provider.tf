@@ -3,8 +3,8 @@ terraform {
   required_providers {
     confluent = {
       source  = "confluentinc/confluent"
-      version = ">=1.42.0"
+      version = ">=2.50.0"
     }
   } 
-  required_version = ">= 1.3.0"
+  required_version = ">= 1.13.4"
 }
