@@ -1,8 +1,8 @@
 output "environment" {
   value = {
     environment_id          = confluent_environment.env.id
-    environemnt_name        = confluent_environment.env.display_name
-    schema_registry_id      = confluent_schema_registry_cluster.sr.id
+    environment_name        = confluent_environment.env.display_name
+    schema_registry_id      = data.confluent_schema_registry_cluster.sr.id
   }
 }
 // Service Account API/KEY
